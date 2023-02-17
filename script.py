@@ -23,7 +23,7 @@ for line in df_lines[1:]:
         print(f"{fields[0]} is over 90% used ({fields[4]})")
     else:
         print("OK")
-This script uses the subprocess module to run the df -h command and capture its output. It then processes the output, skipping any lines that end with "tmpfs" (which are temporary files), and checking if any file systems have over 90% usage. If any do, it prints a message indicating which file system is over 90% used. Otherwise, it prints "OK".
+# This script uses the subprocess module to run the df -h command and capture its output. It then processes the output, skipping any lines that end with "tmpfs" (which are temporary files), and checking if any file systems have over 90% usage. If any do, it prints a message indicating which file system is over 90% used. Otherwise, it prints "OK".
 
 
 
